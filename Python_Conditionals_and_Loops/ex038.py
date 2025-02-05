@@ -9,3 +9,4 @@ elif primeiro < segundo:
 
 elif primeiro == segundo:
     print(f'Os dois valores são iguais!')
+    #I could use 'else' as well once there is no 4th option mathematically
