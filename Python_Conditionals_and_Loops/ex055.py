@@ -2,8 +2,8 @@ maior = float('-inf')
 menor = float('inf')
 
 for c in range(5):
-    peso = int(input(f'Qual o pesso da pessoa {c+1} em kg?'))
-    if peso> maior:
+    peso = float(input(f'Qual o pesso da pessoa {c+1} em kg?'))
+    if peso > maior:
         maior=peso
     if peso < menor:
         menor=peso

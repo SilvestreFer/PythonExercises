@@ -14,5 +14,11 @@ for c in range(7):
     elif date.today().year - birth < 21:
         soma_menores+=1
 
-print(f'{soma_maiores} pessoas atingiram a maioridade!')
-print(f'{soma_menores} pessoas ainda NÃO atingiram a maior idade!')
+if soma_maiores == 1:
+    print(f'Há uma pessoa maior de idade.')
+else:
+    print(f'{soma_maiores} pessoas atingiram a maioridade!')
+if soma_menores == 1:
+    print(f'Há uma pessoa menor de idade.')
+else:
+    print(f'{soma_menores} pessoas ainda NÃO atingiram a maior idade!')
