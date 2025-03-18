@@ -20,8 +20,10 @@ else:
         elif opção == 3:
             if primeiro_número > segundo_número:
                 print(f'{primeiro_número} é o maior!')
-            else:
-                print(f'O {segundo_número} é o maior.')
+            elif segundo_número > primeiro_número:
+                print(f'{segundo_número} é o maior.')
+            elif primeiro_número == segundo_número:
+                print('Os valores são iguais!')
         elif opção == 4:
                 primeiro_número = int(input('Digite o 1º número: '))
                 segundo_número = int(input('Digite o 2º número: '))

@@ -1,8 +1,11 @@
-import random
+from random import randint
 import emoji
 
+print('''Sou seu computador... Acabei de pensar em um número entre 0 e 10.
+Você consegue adivinhar que número eu pensei? ''')
+
 #Fazendo o computador "pensar" um número
-número_computador = random.randint(0,10)
+número_computador = randint(0,10)
 
 #Definindo as variáveis para o loop
 número_usuário = 0
