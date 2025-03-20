@@ -1,13 +1,12 @@
+#Calculando fatorial com 'while'
+
 número = int(input('Digite um número para calcular o fatorial: '))
-
-#Calculando com 'while'
+contador =número
 fatorial = 1
-while número > 1:
-    fatorial *= número
-    número -=1
-print(f'O fatorial de {número} é: {fatorial}')
-
-#Calculando com 'for'
-for contador in range (1, número+1):
+print(f'Calculando o {número}! =', end= ' ')
+while contador > 0:
+    print(f'{contador}', end=' ')
+    print(f'x' if contador > 1 else '=', end=' ')
     fatorial *= contador
-print(f'O fatorial de {número} é: {fatorial}')
+    contador -= 1
+print(f'{fatorial}')
