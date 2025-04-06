@@ -27,7 +27,6 @@ for i in range(4):
 media=soma_de_idade/4
 
 #Apresentando os resultados:
-
 print('Analisando o grupo.', end="")
 sleep(1)
 print('.', end="")
