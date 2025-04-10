@@ -23,7 +23,6 @@ for pessoa in range (1,5):
 
 print('Analisando os dados...')
 sleep(1)
-
 media_idade = soma_idade / 4
 
 print(f'A média de idade do grupo é de {media_idade}.')

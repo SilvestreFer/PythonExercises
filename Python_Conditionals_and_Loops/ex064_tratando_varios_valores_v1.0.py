@@ -10,5 +10,4 @@ while numero != 999:
     contador += 1
     soma += numero
     numero = int(input('Digite um número para a soma: '))
-
 print(f'Você digitou {contador-1} números e a soma entre eles é {soma}.')
