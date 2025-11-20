@@ -1,6 +1,4 @@
-apelido = {'Juandrio':'Amor',
-           'Juan':'Amor',
-           'Fernanda':'Fê',
+apelido = {'Fernanda':'Fê',
            'Tarsila':'Tatá'}
 
 nome = str(input('Qual é o seu nome?')).strip().title()
@@ -19,8 +17,6 @@ elif nome in 'Ana, Cláudia, Jéssica, Juliana':
     #Desse jeito o comando 'in' ler uma string
     #Com isso verifica se o nome digitado está em qualquer posição dessa string
     #E aceita nomes como Julia ou Éssi, por exemplo.
-elif nome in ['Juandrio','Juan']:
-    print('Oi, gato!')
 elif nome == 'Tarsila':
     print('Oi, gata! Cê tá boa?')
 elif nome in ['José', 'Fernando']:
